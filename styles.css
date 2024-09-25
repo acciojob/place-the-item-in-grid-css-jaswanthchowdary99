@@ -1,2 +1,12 @@
 
 /* Your CSS Code here. */
+.holder{
+	display:grid;
+	width:500px;
+	grid-template-columns:repeat(200px, 2fr);
+	grid-template-rows:repeat(200px, 1fr);
+}
+.item{
+	background-color:red;
+	border:1px solid black;
+}
